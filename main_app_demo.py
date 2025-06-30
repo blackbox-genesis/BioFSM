@@ -3,6 +3,7 @@ from levels import load_toggle_switch
 from level2_feedback import run_level2_feedback
 from toggle_demo import simulate_toggle
 from utils import plot_simulation
+from packaging import version
 
 # ---------- Streamlit Page Config ----------
 st.set_page_config(page_title="BioFSM", layout="centered")
@@ -68,7 +69,11 @@ if level == "Level 1: Toggle Switch":
         try:
             result = simulate_toggle(fsm.current_state.name)
             img_buf = plot_simulation(result)
-            st.image(img_buf, caption="GFP expression over time (Simulated)", use_container_width=True)
+            if version.parse(st.__version__) >= version.parse("1.31.0"):
+                st.image(img_buf, caption="GFP expression over time (Simulated)", use_container_width=True)
+            else:
+                st.image(img_buf, caption="GFP expression over time (Simulated)", use_column_width=True)
+
         except Exception as e:
             st.error(f"Simulation failed: {e}")
 
