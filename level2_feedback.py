@@ -2,8 +2,6 @@ import streamlit as st
 import random
 
 def run_level2_feedback():
-    st.set_page_config(page_title="BioFSM Level 2", layout="centered")
-
     st.markdown("""
         <style>
         body { background-color: #0f0f0f; color: #f0f0f0; }
