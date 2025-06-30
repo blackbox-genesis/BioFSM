@@ -1,5 +1,15 @@
 # BioFSM - Synthetic Biology Logic Game
 
+[![Streamlit App](https://img.shields.io/badge/🚀%20Live%20Demo-BioFSM-green?logo=streamlit)](https://bio-fsm.streamlit.app/)
+
+**Try BioFSM instantly in your browser:**  
+👉 [https://bio-fsm.streamlit.app/](https://bio-fsm.streamlit.app/)  
+No setup required — explore FSM-based synthetic biology logic circuits with a clean interactive UI.
+
+> This demo runs on the `BioFSM-Demo` branch using a mock simulation engine.  
+> For the full Tellurium-backed version, check out the [`main`](https://github.com/blackbox-genesis/BioFSM/tree/main) branch.
+
+
 **BioFSM** is an experimental game that blends synthetic biology with logic circuits.\
 Built using Python and Tellurium, it turns genetic circuit behavior into interactive puzzles. Each level simulates a real biological system, powered by a custom finite state machine (FSM) engine and rendered through a basic Streamlit UI.
 
