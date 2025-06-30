@@ -20,8 +20,6 @@ This prototype includes:
 
 It's not meant to be a perfect app - it’s a proof-of-concept for how biological design can be made playable, and how circuits can be tested through simulated decision-making.
 
-> Think of it as a synthetic biology sandbox… with consequences.
-
 ---
 
 ## ⚙️ Tech Stack
