@@ -7,6 +7,7 @@ from packaging import version
 
 # ---------- Streamlit Page Config ----------
 st.set_page_config(page_title="BioFSM", layout="centered")
+st.warning("📱 Tip: Tap the menu (>) in the top-left to switch levels.")
 
 # ---------- Level Selector ----------
 st.sidebar.title("🧬 BioFSM Levels")
