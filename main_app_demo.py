@@ -69,10 +69,8 @@ if level == "Level 1: Toggle Switch":
         try:
             result = simulate_toggle(fsm.current_state.name)
             img_buf = plot_simulation(result)
-            if version.parse(st.__version__) >= version.parse("1.31.0"):
-                st.image(img_buf, caption="GFP expression over time (Simulated)", use_container_width=True)
-            else:
-                st.image(img_buf, caption="GFP expression over time (Simulated)", use_column_width=True)
+            st.image(img_buf, caption="GFP expression over time (Simulated)", use_column_width=True)
+
 
         except Exception as e:
             st.error(f"Simulation failed: {e}")
