@@ -79,10 +79,6 @@ if level == "Level 1: Toggle Switch":
     # Unlock Level 2
     if state_info['output'] == "GFP ON":
         st.session_state.Level2_Unlocked = True
-        st.success("🎉 Level 1 complete! GFP is ON.")
-        st.markdown("🚀 **Loading Level 2: Feedback Frenzy...**")
-        st.experimental_rerun()  # Forces app to reload
-
 
     # Restart Level
     st.divider()
