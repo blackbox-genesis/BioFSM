@@ -1,4 +1,4 @@
-# 👬 BioFSM - Synthetic Biology Logic Game
+# BioFSM - Synthetic Biology Logic Game
 
 **BioFSM** is an experimental game that blends synthetic biology with logic circuits.\
 Built using Python and Tellurium, it turns genetic circuit behavior into interactive puzzles. Each level simulates a real biological system, powered by a custom finite state machine (FSM) engine and rendered through a basic Streamlit UI.
@@ -26,9 +26,9 @@ BioFSM is built entirely in Python and leverages powerful tools from both biolog
 
 ---
 
-## 🎮 Levels
+##  Levels
 
-### 🧪 Level 1 - Basic Gene Expression (File: `levels.py`)
+###  Level 1 - Basic Gene Expression (File: `levels.py`)
 
 Level 1 is kind of like a tutorial - it looks simple, but it’s actually not.
 
@@ -40,7 +40,7 @@ This was the first level I built, and honestly, I wasn’t even sure it would wo
 
 ---
 
-### ⚠️ Level 2 - Mutation Mayhem & Feedback Chaos (File: `level2_feedback.py`)
+###  Level 2 - Mutation Mayhem & Feedback Chaos (File: `level2_feedback.py`)
 
 **Building this level was a nerve-wracking experience.**\
 Level 2 is completely chaotic - probably the most intense part of the prototype so far.
@@ -62,7 +62,7 @@ Players have to carefully sequence their inputs, manage conditional activation, 
 
 ---
 
-## 📂 File Structure & How It Works
+##  File Structure & How It Works
 
 BioFSM is made up of simulation levels, a custom finite-state-machine engine, and a basic Streamlit interface. The system uses Python and Tellurium to simulate actual gene circuit dynamics, with game-like logic layered on top.
 
@@ -84,7 +84,7 @@ BioFSM/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repository:
 
@@ -109,14 +109,14 @@ If you get any errors, make sure Tellurium is properly installed (some systems n
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the **MIT License**.\
 Feel free to fork, build on, or use parts of this project with proper attribution.
 
 ---
 
-## 🙋 About the Author
+##  About the Author
 
 [Aditya Raj – LinkedIn](https://www.linkedin.com/in/aditya-synbio/)\
 Undergraduate student & aspiring synthetic biologist.\
