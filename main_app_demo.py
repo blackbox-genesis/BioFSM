@@ -19,7 +19,7 @@ level = st.sidebar.selectbox("Select Level", [
 # ---------- LEVEL 1 ----------
 if level == "Level 1: Toggle Switch":
     st.title("BioFSM: Toggle Switch Simulator")
-    st.info("ℹ️ This level is just a tutorial. For actual gameplay with logic traps and mutations, go to **Level 2: Feedback Frenzy** from the menu (≡).")
+    st.info("ℹ️ This level is just a tutorial. For actual gameplay with logic traps and mutations, go to **Level 2: Feedback Frenzy** from the menu (>).")
     st.markdown("Level 1: Toggle Switch - Simulate simple ON/OFF logic using IPTG and aTc")
 
     if "fsm" not in st.session_state:
