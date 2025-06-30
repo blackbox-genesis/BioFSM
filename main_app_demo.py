@@ -1,7 +1,7 @@
 import streamlit as st
 from levels import load_toggle_switch
 from level2_feedback import run_level2_feedback
-from toggle_model import simulate_toggle
+from toggle_demo import simulate_toggle
 from utils import plot_simulation
 
 # ---------- Streamlit Page Config ----------
