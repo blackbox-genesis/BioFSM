@@ -44,8 +44,6 @@ It runs directly on an actual **Tellurium gene circuit script**, and gives the p
 
 This was the first level I built, and honestly, I wasn’t even sure it would work. But surprisingly, it did - and the fact that you could actually interact with real genetic logic in a game-like setup was fascinating. Since I’m not a software developer, I used **AI tools** and open-source references to piece together a basic Streamlit interface.
 
-> It’s not flashy, but it works - and that felt like a small win in itself.
-
 ---
 
 ###  Level 2 - Mutation Mayhem & Feedback Chaos (File: `level2_feedback.py`)
@@ -65,9 +63,6 @@ But there’s a twist: the system randomly **mutates itself**, flipping the logi
 If the output turns ON **while feedback is active**, it’s **game over**.
 
 Players have to carefully sequence their inputs, manage conditional activation, and survive instability under pressure.
-
-> “It was pure madness building this one - I wasn’t sure if the feedback loops would behave at all. But somehow, it worked - and turned into my favorite level.”
-
 ---
 
 ##  File Structure & How It Works
@@ -88,7 +83,7 @@ BioFSM/
 └── README.md              # You are here
 ```
 
-⚠️ **Note**: The FSM engine and Streamlit UI were built with the help of **AI tools** (like ChatGPT) and various **open-source references**. The goal wasn’t to make a polished app — it was to create a working, interactive prototype that lets players experiment with biological logic in a game-like format.
+⚠️ **Note**: The FSM engine and Streamlit UI were built with the help of **AI tools** (like Cursor) and various **open-source references**. The goal wasn’t to make a polished app, it was to create a working, interactive prototype that lets players experiment with biological logic in a game-like format.
 
 ---
 
@@ -127,6 +122,4 @@ Feel free to fork, build on, or use parts of this project with proper attributio
 ##  About the Author
 
 [Aditya Raj – LinkedIn](https://www.linkedin.com/in/aditya-synbio/)\
-Undergraduate student & aspiring synthetic biologist.\
-I build strange gene circuits and sometimes turn them into games.
-
+Synthetic & Systems Biology Researcher
