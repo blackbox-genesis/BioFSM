@@ -1,5 +1,7 @@
 # BioFSM - Synthetic Biology Logic Game
 
+(SYSTEM DOWN TEMPORARILY DUE TO ONGOING WORK)
+
 [![Streamlit App](https://img.shields.io/badge/🚀%20Live%20Demo-BioFSM-green?logo=streamlit)](https://bio-fsm.streamlit.app/)
 
 **Try BioFSM instantly in your browser:**  
